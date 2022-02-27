@@ -5,14 +5,14 @@ class URI
     static void Main(string[] args)
     { 
         Console.Write("Enter the first value: ");
-        int A = int.Parse(Console.ReadLine());
+        int a = int.Parse(Console.ReadLine()!);
 
         Console.Write("Enter the second value: ");
-        int B =  int.Parse(Console.ReadLine());
-        int X = A + B;
+        int b =  int.Parse(Console.ReadLine()!);
+        int X = a + b;
         
         
-        Console.WriteLine($"X = {A + B}");
+        Console.WriteLine($"X = {a + b}");
         
         
         
